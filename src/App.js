@@ -1,5 +1,13 @@
+import TopBar from "./topbar/TopBar";
+import Home from "./pages/homepage/Home";
+
 function App() {
-    return <div className="App">bookaholic</div>;
+    return (
+        <>
+            <TopBar />
+            <Home />
+        </>
+    );
 }
 
 export default App;
