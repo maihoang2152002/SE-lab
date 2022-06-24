@@ -4,9 +4,9 @@ export default function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebarItem">
-                <span className="sidebarTitle">ABOUT ME</span>
+                <span className="sidebarTitle">ABOUT US</span>
                 <img
-                    src="https://assets.pinterest.com/ext/embed.html?id=713187290994124811"
+                    src="https://icdn.dantri.com.vn/thumb_w/770/2022/05/30/iu-11-1653887051969.jpg"
                     height="433"
                     width="236"
                     frameborder="0"
