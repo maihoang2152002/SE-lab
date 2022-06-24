@@ -5,6 +5,7 @@ export default function TopBar() {
         <div className="top">
             <div className="topLeft">
                 <i className="topIcon fa-brands fa-facebook-square"></i>
+                <i className="topIcon fa-brands fa-google"></i>
                 <i className="topIcon fa-brands fa-twitter-square"></i>
             </div>
             <div className="topCenter">

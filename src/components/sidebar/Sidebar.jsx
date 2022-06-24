@@ -13,7 +13,7 @@ export default function Sidebar() {
                     scrolling="no"
                     alt=""
                 />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Information about us</p>
             </div>
             <div className="sidebarItem">
                 <span className="sidebarTitle">CATEGORIES</span>
@@ -30,6 +30,7 @@ export default function Sidebar() {
                 <span className="sidebarTitle">FOLLOW US</span>
                 <div className="sidebarSocial">
                     <i className="sidebarIcon fa-brands fa-facebook-square"></i>
+                    <i className="sidebarIcon fa-brands fa-google"></i>
                     <i className="sidebarIcon fa-brands fa-twitter-square"></i>
                 </div>
             </div>
