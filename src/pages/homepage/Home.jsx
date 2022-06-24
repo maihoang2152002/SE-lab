@@ -6,8 +6,8 @@ import Sidebar from "../../sidebar/Sidebar";
 export default function Home() {
     return (
         <>
+            <Header />
             <div className="home">
-                <Header />
                 <Posts />
                 <Sidebar />
             </div>
