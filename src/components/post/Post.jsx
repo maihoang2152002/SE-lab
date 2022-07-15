@@ -12,18 +12,11 @@ export default function Post({ post }) {
                 <div className="postCats">
                     <span className="postCat">{post.genres}</span>
                 </div>
-                <span className="postTitle">{post.name}</span>
+                <span className="postTitle">{post.title}</span>
                 <hr />
-                <span className="postDate">{post.publisedDate}</span>
+                <span className="postDate">{post.publishedDate}</span>
             </div>
-            <p className="postDesc">
-                Advance reading copy of the first edition. Self-bound in the
-                iconic black and white dust jacket. Very Good. Reading creases
-                to spine, light rubbing to wraps and several small dots of red
-                ink to the bottom edge of the front wrapper, name and date of
-                former owner on half-title page. A lovely copy, in an uncommon
-                format. Item #180717002 Price: $2,200.00
-            </p>
+            <p className="postDesc">{post.description}</p>
         </div>
     );
 }
