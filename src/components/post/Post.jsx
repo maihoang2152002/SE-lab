@@ -1,6 +1,6 @@
 import "./post.css";
 
-export default function Post() {
+export default function Post({ post }) {
     return (
         <div className="post">
             <img
@@ -10,12 +10,11 @@ export default function Post() {
             />
             <div className="postInfo">
                 <div className="postCats">
-                    <span className="postCat">Life</span>
-                    <span className="postCat">Style</span>
+                    <span className="postCat">{post.genres}</span>
                 </div>
-                <span className="postTitle">Father Book review</span>
+                <span className="postTitle">{post.name}</span>
                 <hr />
-                <span className="postDate">1 hour ago</span>
+                <span className="postDate">{post.publisedDate}</span>
             </div>
             <p className="postDesc">
                 Advance reading copy of the first edition. Self-bound in the
