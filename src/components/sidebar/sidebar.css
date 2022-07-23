@@ -29,8 +29,10 @@
     text-align: center;
 }
 
-.sidebar > img {
+.sidebarItem > img {
     margin-top: 15px;
+    width: 250px;
+    height: 400px;
 }
 
 .sidebar > p {
@@ -44,9 +46,10 @@
 
 .sidebarListItem {
     display: inline-block;
-    width: 50%;
+    width: 40%;
     margin-top: 15px;
     cursor: pointer;
+    text-align: center;
 }
 
 .sidebarSocial {

@@ -1,4 +1,5 @@
 import "./post.css";
+import { Link } from "react-router-dom";
 
 export default function Post({ post }) {
     return (
@@ -10,9 +11,17 @@ export default function Post({ post }) {
             />
             <div className="postInfo">
                 <div className="postCats">
-                    <span className="postCat">{post.genres}</span>
+                    <span className="postCat">
+                        <Link className="link" to="/posts?cat=">
+                            {post.genres}
+                        </Link>
+                    </span>
                 </div>
-                <span className="postTitle">{post.title}</span>
+                <span className="postTitle">
+                    <Link to="/book/abc" className="link">
+                        {post.title}
+                    </Link>
+                </span>
                 <hr />
                 <span className="postDate">{post.publishedDate}</span>
             </div>

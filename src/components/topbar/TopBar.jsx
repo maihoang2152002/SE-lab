@@ -20,7 +20,9 @@ export default function TopBar() {
                     <li className="topListItem">ABOUT</li>
                     <li className="topListItem">CONTACT</li>
                     <li className="topListItem">WRITE</li>
-                    <li className="topListItem">{user && "LOGOUT"}</li>
+                    <li className="topListItem">
+                        {user && <li className="topListItem">LOGOUT</li>}
+                    </li>
                 </ul>
             </div>
             <div className="topRight">
